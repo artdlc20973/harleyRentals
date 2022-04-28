@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&diaplay=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato",sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1515777315835-281b94c9589f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1512&q=80')no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3em;
+}
+
+.logo {
+  color: #FB9526;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 1.2em;
+  color: #FB9526;
+  font-size: 1em;
+}
+
+.nav li a:hover {
+  color: #3bd1ff;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 275px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #3bd1ff;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: lighter;
+  padding-bottom: 1.2em;
+}
+
+p {
+  color: #FB9526;
+  line-height: 1.7;
+  margin: 0 4em;
+  letter-spacing: .5px;
+  word-spacing: 1px;
+  padding-bottom: 2.4em;
+}
+
+button {
+  padding: 12px 40px;
+  background: #3bd1ff65;
+  color: #fff;
+  border: none;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  transition: all .5s ease-in;
+}
+
+button:hover {
+  background: #fb942667;
+  transform: translateY(9px);
+  border-radius: 10px;
+}
